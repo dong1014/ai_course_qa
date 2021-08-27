@@ -14,4 +14,3 @@ file_path = base_path+'/Report/Report.html'
 with open(file_path,'wb') as f:
     runner = HTMLTestRunner(stream=f,title="这是张冬的测试报告",description="这是测试报告的描述")
     runner.run(suite)
-
