@@ -18,11 +18,11 @@ class test_user_info(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        print('case 开始执行')
+        print('test 开始执行')
 
     @classmethod
     def tearDownClass(cls) -> None:
-        print('case 执行完毕')
+        print('test 执行完毕')
 
     def test_success(self):
         data = user_info.userinfo()

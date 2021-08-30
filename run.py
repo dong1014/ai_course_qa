@@ -1,6 +1,6 @@
 #coding = utf-8
 import unittest
-from case.test_userinfo import test_user_info
+from test.test_userinfo import test_user_info
 import os
 from lib.HTMLTestRunner import HTMLTestRunner
 base_path = os.getcwd()
