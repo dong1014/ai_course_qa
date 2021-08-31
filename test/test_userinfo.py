@@ -8,10 +8,10 @@ class user_info():
     def userinfo(cls):
         url = 'https://aries.yuanfudao.biz/aries-server/android'
         header = login.headers
-        cookies = login().get_cookies()
+        # cookies = login().get_cookies()
         params = "_productId=1911&_hostProductId=1911&platform=android29&version=1.6.0&av=5"
         s = login.s
-        res = s.request('get', url+'/userinfo', cookies=cookies, headers=header,params=params).json()
+        res = s.request('get', url+'/userinfo', headers=header,params=params).json()
         return res
 
 class test_user_info(unittest.TestCase):

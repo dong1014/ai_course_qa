@@ -2,9 +2,11 @@
 import unittest
 from test.test_userinfo import test_user_info
 import os
-from lib.HTMLTestRunner import HTMLTestRunner
 base_path = os.getcwd()
-print(base_path)
+from lib.HTMLTestRunner import HTMLTestRunner
+import sys
+sys.path.append(base_path)
+
 
 
 test_case01 = unittest.TestLoader().loadTestsFromTestCase(test_user_info)
