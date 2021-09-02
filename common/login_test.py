@@ -22,7 +22,8 @@ class devices:
 class login:
   url = "https://ape-api.yuanfudao.biz/accounts/android/login"
   params = "_productId=1911&_hostProductId=1911&platform=android29&version=1.6.0&av=5"
-  payload = "phone=o%2F%2BVnJRhhftClvMFZheWAckwrXGyGCQuHGWeb6OpQ2BmoBQ968301OxfRm%2FgV%2FzTbjcP%2FngsjYTPqojnbegNDdlup3jnY%2FJsv9g%2FRR1JvfRo9tLp%2BX38%2Fimlaa%2BQrmW3MpsrqYObgNzUjaZ%2BKJLaW5%2F8KOnk1elrIBGRu2p0uTI%3D&verification=CtrMtdT%2B4qNnxO6kB59S%2FFeI0Lj9PhB9w%2FwU2oiHqji5Hld7SF6TawiZi7ysHz3DxAqkMSV0J7ZW8Mq7Q6YBao%2BZKDaYBzfZcBjeamVcwlvRrTjGOGouE1ruEB40IegdY%2BbVIj89Ss0RUE%2B16yb0Sz6f2tR4CWkah0lPwsh%2BkLc%3D&autoRegister=true"
+  payload= "password=c9fAUpnqo9rselU2fum36LVNi%2FwDajyAlmz5R0TSIc5Qq7krQATiv7aVT3oGllH3%0D%0A6pPkfM2xrDtm8AoJLPFitLiWlMBA6uozDMk970Ey4mUC2fZjASCoyPO8qkzfQrOn%0D%0AVWB1fY1%2BsfVBljCVfb9wB2S3SWteAivTBcKOrbnRBMA%3D&phone=V2fWleOSjpB8n27UTI4eiXmAuIbuMi2E6EUMe2abPYp18JuGvcjBOBPKgOpPcqWh%0D%0AEuNzbSh5%2F7bPcVcJEZTTzmh1s76ut70ijdMK7vgGq6HVkd7LVKTJZ1gtAf53EN2G%0D%0AnZQ6H2bmOgXchryltdivZBUaL%2FlCJoJVqD58DOgB7c8%3D&autoRegister=tru"
+  # payload = "phone=o%2F%2BVnJRhhftClvMFZheWAckwrXGyGCQuHGWeb6OpQ2BmoBQ968301OxfRm%2FgV%2FzTbjcP%2FngsjYTPqojnbegNDdlup3jnY%2FJsv9g%2FRR1JvfRo9tLp%2BX38%2Fimlaa%2BQrmW3MpsrqYObgNzUjaZ%2BKJLaW5%2F8KOnk1elrIBGRu2p0uTI%3D&verification=CtrMtdT%2B4qNnxO6kB59S%2FFeI0Lj9PhB9w%2FwU2oiHqji5Hld7SF6TawiZi7ysHz3DxAqkMSV0J7ZW8Mq7Q6YBao%2BZKDaYBzfZcBjeamVcwlvRrTjGOGouE1ruEB40IegdY%2BbVIj89Ss0RUE%2B16yb0Sz6f2tR4CWkah0lPwsh%2BkLc%3D&autoRegister=true"
   headers = {
     'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'
   }
