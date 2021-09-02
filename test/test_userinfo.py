@@ -8,21 +8,21 @@ class user_info():
     def userinfo(cls):
         url = 'https://aries.yuanfudao.biz/aries-server/android'
         header = login.headers
-        cookies = login().get_cookies()
+        # cookies = login().get_cookies()
         params = "_productId=1911&_hostProductId=1911&platform=android29&version=1.6.0&av=5"
         s = login.s
-        res = s.request('get', url+'/userinfo', cookies=cookies, headers=header,params=params).json()
+        res = s.request('get', url+'/userinfo', headers=header,params=params).json()
         return res
 
 class test_user_info(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        print('case 开始执行')
+        print('test 开始执行')
 
     @classmethod
     def tearDownClass(cls) -> None:
-        print('case 执行完毕')
+        print('test 执行完毕')
 
     def test_success(self):
         data = user_info.userinfo()
